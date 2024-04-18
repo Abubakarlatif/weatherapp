@@ -19,7 +19,7 @@ describe('Weather App Test Suite', function () {
     // Set up Chrome options
     const options = new chrome.Options();
     options.setChromeBinaryPath(chromeBinaryPath); // Set Chrome binary path
-    options.addArguments('--headless'); // Run in headless mode for testing
+    // Run in headless mode for testing
 
     // Build WebDriver instance
     driver = await new Builder()
